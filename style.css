@@ -53,6 +53,8 @@ html::-webkit-scrollbar-thumb{
 }
 
 .header {
+    max-width: 1300px;
+    margin: auto;
     box-shadow: var(--box-shadow);
     position: relative;
     padding: 0 1rem; 
@@ -420,7 +422,7 @@ section{
 
 /*********************    Footer Styles        ************************/
 .footer{
-    max-width: 1300px;
+    max-width: 1800px;
     margin: auto;
     background-color: #fff;
     background-size: cover;
@@ -621,7 +623,14 @@ section{
     }
 }
 
+.nakrebi{
+    max-width: 1300px;
+    margin: auto;
+}
+
 .shetavazebebi{
+    max-width: 1300px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2.5rem;
@@ -647,6 +656,8 @@ section{
 }
 
 .produqtebi{
+    max-width: 1300px;
+    margin: auto;
     margin-bottom: 2.5rem;
 }
 
@@ -655,7 +666,10 @@ section{
     font-weight: 800;
 }
 
-
+.jildoebi{
+    max-width: 1300px;
+    margin: auto;
+}
 
 .jildoebi h2{
     font-size: 2.5rem;
@@ -724,6 +738,7 @@ section{
     margin-top: 5rem;
     max-height: 600px;
     max-width: 1300px;
+    margin: auto;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -810,4 +825,5 @@ section{
 .nakrebi h2{
     font-size: 2.5rem;
     font-weight: 800;
+    margin-bottom: 3rem;
 }
